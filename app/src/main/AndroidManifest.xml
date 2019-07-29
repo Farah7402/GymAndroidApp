@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.farahjabeen.gymmaster">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_512"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <activity android:name=".BulkyMusclesActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".LeanActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".DietActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".SixpackActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".BulkyChestActivity"
+            android:parentActivityName=".BulkyMusclesActivity"/>
+
+        <activity android:name=".BulkyBackActivity"
+            android:parentActivityName=".BulkyMusclesActivity"/>
+
+        <activity android:name=".BulkyLegsActivity"
+            android:parentActivityName=".BulkyMusclesActivity"/>
+
+        <activity android:name=".BulkyBicepsActivity"
+            android:parentActivityName=".BulkyMusclesActivity"/>
+
+        <activity android:name=".BulkyTricepsActivity"
+            android:parentActivityName=".BulkyMusclesActivity"/>
+
+        <activity android:name=".BulkySquatsActivity"
+            android:parentActivityName=".BulkyMusclesActivity"/>
+
+        <activity android:name=".BulkySixActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".LeanChestActivity"
+            android:parentActivityName=".LeanActivity"/>
+
+        <activity android:name=".LeanShoulderActivity"
+            android:parentActivityName=".LeanActivity"/>
+
+        <activity android:name=".LeanBicepsActivity"
+            android:parentActivityName=".LeanActivity"/>
+
+        <activity android:name=".DietBulkActivity"
+            android:parentActivityName=".DietActivity"/>
+
+        <activity android:name=".DietLeanSixActivity"
+            android:parentActivityName=".DietActivity"/>
+
+        <activity android:name=".BananaActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".EggsActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".BreakfastActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".FruitsActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".LunchActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".GreenTeaActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".PulkyChickenActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".WaterActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".MilkActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".OatsActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".AppleOActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".PulkaActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".PeasActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".NutActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".CoconutActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".PushUpActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".PullUpActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".FlatBenchPressActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".InclineDumbbellPressActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".DeclinePressActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".InclineBenchDumbbellPressActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".ChestDipsPressActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".DumbbellarmbentpulloverActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".MiltaryActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".DumbellActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".SeatedMiltaryPressMachineActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".DumbellLateralPraiseActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".CableFrontRaiseActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".UpRightRowsActivity"
+            android:parentActivityName=".MainActivity"/>
+
+
+        <activity android:name=".LatPullDownActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".SeatedCableRowActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".CloseGripFrontLatPullDownsActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".BentOverBarbleRowActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".DumbellRowsActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".TBarRowActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".BicepCurlsActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".DumbbellCurlsActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".PreacherCurlsActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".CableCurlsActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".DumbbellExtensionActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".InclineTricepsExtensionActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".CableTricepsExtensionActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".CloseGripBenchPressActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".NarrowgripPushUpsActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".MachineTricepsExtensionActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".BarbellSquatsActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".FrontBarbellSquatsActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".CalvesLegPressActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".SumoSquatActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".CalfMachineActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".CalfRaiseDumbbellActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".SquatsActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".AbsLegRaisesActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".CrossBodyCrunchesActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".JackKnivesActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".LegRaisesActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".PlankExerciseActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".ReverseCrunchesActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".KneeCrunchesActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".MountainClimberActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".SupermanActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".WindShieldWipersActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".ConcentrationCurlsActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".ChinUpsActivity"
+            android:parentActivityName=".MainActivity"/>
+
+            <activity android:name=".AboutActivity"
+            android:parentActivityName=".MainActivity" />
+
+            <activity android:name=".ContactActivity"
+            android:parentActivityName=".MainActivity" >
+
+        </activity>
+    </application>
+
+</manifest>

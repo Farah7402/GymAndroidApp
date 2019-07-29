@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#02071d"
+    tools:context=".ContactActivity">
+
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#0d1a51"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+        app:subtitleTextAppearance="@style/ToolbarSubtitleAppearance"
+        app:titleTextAppearance="@style/ToolbarTitleAppearance"
+        app:titleTextColor="@android:color/background_light">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="381dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="82dp"
+        android:fontFamily="@font/homenaje"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="70dp"
+        android:text="Dear friends,if you have any suggestions or issues,please directly email us.We will consider it on priority basis in our coming versions"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:fontFamily="@font/homenaje"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="70dp"
+        android:text="Email_ID:mrZoota66@gmail.com"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+</RelativeLayout>
